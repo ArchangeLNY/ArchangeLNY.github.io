@@ -162,6 +162,19 @@ $(document).ready(function() {
 
 });
 
+$(document).ready(function(){
+'use strict'
+$('.overlay').ripples({
+	dropRadius: 13,
+	perturbance: 0.01,
+	
+  });
+  $('.overlay').ripples('updateSize');
+});
+
+
+
+
 
 
 
